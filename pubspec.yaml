@@ -1,0 +1,51 @@
+name: trc_transit
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.0.0
+  dio: ^3.0.10
+  flutter_session: ^0.1.1
+  rflutter_alert: ^2.0.2
+  flutter_spinkit: "^4.1.2"
+  longdo_maps_flutter: ^1.0.1
+  intl: ^0.17.0
+  flutter_rounded_date_picker: ^2.0.1
+  hexcolor: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: SourceSansPro
+      fonts:
+        - asset: assets/fonts/SourceSansPro-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SourceSansPro-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/SourceSansPro-Light.ttf
+          weight: 400
+    - family: Prompt
+      fonts:
+      - asset: assets/fonts/Prompt-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/Prompt-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Prompt-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Prompt-Light.ttf
+        weight: 300
